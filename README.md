@@ -1,8 +1,8 @@
-# 🚀 PPRO Developer Enablement: The "Paved Path" Project
+# 🚀 PPRO Developer Enablement: The Paved Path Project
 
 ## 🎯 Project Vision
 As an Infrastructure Engineer, my goal is to empower cross-functional teams to deliver high-quality software efficiently. This repository demonstrates a 
-**"Paved Path"**—a standardized, self-service infrastructure template that balances developer agility with strict FinTech regulatory requirements like PCI and DORA.
+**Paved Path** is a standardised, self-service infrastructure template that balances developer agility with strict FinTech regulatory requirements like PCI and DORA.
 
 ## 🛠️ Tech Stack & Skills
 - **Cloud:** AWS (S3, EKS)
