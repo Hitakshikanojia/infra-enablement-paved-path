@@ -7,6 +7,9 @@ provider "aws" {
 
 # Create a Secure S3 Bucket for Developer App Data
 resource "aws_s3_bucket" "dev_enablement_bucket" {
+  lifecycle {
+  prevent_destroy = true
+}
   bucket = "ppro-paved-path-assets-2026"
 
   tags = {
