@@ -1,3 +1,5 @@
+# Standardized S3 Bucket for PPRO Developer Enablement
+
 # Configure the AWS Provider
 provider "aws" {
   region = "eu-central-1" # Munich/Frankfurt region where PPRO operates
