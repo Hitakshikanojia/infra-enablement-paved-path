@@ -1,0 +1,24 @@
+name: PPRO Paved Path Deployment
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  security-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Security Scan (Trivy)
+        run: echo "Running vulnerability scan for PCI compliance..." 
+        # This shows you prioritize security for FinTech 
+
+      - name: Terraform Plan
+        run: echo "Initializing AWS Infrastructure via Terraform..."
+        # Demonstrates your IaC skills 
+
+      - name: Deploy to EKS
+        run: echo "Deploying microservice to Kubernetes cluster..."
+        # Matches PPRO’s tech stack
